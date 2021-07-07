@@ -10,14 +10,14 @@ import { Controls,
          
  
 const App = () => (
-  <Pico8 src="gol.js"
+  <Pico8 src="jelpi.js"
          autoPlay={true}
          legacyButtons={false}
          hideCursor={true}
          center={true}
          blockKeys={true}
          usePointer={true}
-         placeholder="logo512.png"
+         placeholder="placeholder.png"
   >
     <Controls/>
     <Reset/>
